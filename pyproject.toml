@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "Omega Bot"
+version = "0.1.0"
+description = ""
+authors = ["David Díaz dedemoya@uninorte.edu.co"]
+
+[tool.poetry.dependencies]
+python = ">=3.8.0,<3.9"
+numpy = "^1.22.2"
+python-telegram-bot = "^13.11"
+telegram = "^0.0.1"
+pytz = "^2022.1"
+nltk = "^3.7"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
